@@ -14,7 +14,7 @@ module.exports = function() {
         javascriptEnabled: true,
         acceptSslCerts: true,
         chromeOptions: {
-            args: ['start-maximized', 'disable-extensions']
+            args: ['disable-extensions']
         },
         path: chromedriver.path
     }).build();
